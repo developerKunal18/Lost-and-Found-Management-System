@@ -1,0 +1,25 @@
+Features
+- Add lost items and found items.
+- Store item name, description, location, date, and contact details.
+- View all reported items.
+- Search items by name or location.
+- Update item status.
+- Delete item records.
+- View pending and resolved items.
+- Generate summary reports.
+
+Project structure
+Lost_and_Found_System/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── item_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    └── items.json
